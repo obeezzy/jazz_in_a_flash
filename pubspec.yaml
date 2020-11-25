@@ -1,0 +1,24 @@
+name: jazz_in_a_flash
+description: Flash cards for jazz
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  google_fonts: ^1.1.1
+  sheet_music: ^0.3.0
+  flutter_midi_command: ^0.2.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
